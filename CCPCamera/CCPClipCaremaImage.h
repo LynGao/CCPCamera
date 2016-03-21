@@ -12,4 +12,5 @@
 - (void)stopCamera;
 - (void)takePhotoWithCommit:(void (^)(UIImage *image))commitBlock;
 - (BOOL)isOpenFlash;
+- (instancetype)initWithFrame:(CGRect)frame andFunction:(NSString *)function;
 @end
